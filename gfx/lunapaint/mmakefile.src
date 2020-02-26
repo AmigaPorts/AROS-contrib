@@ -20,6 +20,7 @@ USER_INCLUDES:= -I$(SRCDIR)/$(CURDIR)/src -I$(GENDIR)/$(CURDIR)/src/app -I$(AROS
 
 FILES := \
 	src/main \
+        src/globals \
 	src/math/math \
 	src/app/events \
 	src/app/gui \
